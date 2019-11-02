@@ -1,0 +1,48 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+html, body {
+background-color: #ffeead;
+margin: 10px;
+}
+
+.container {
+display: flex;
+justify-content: center;
+}
+
+#card {
+background: tomato;
+width: 300px;
+height: 175px;
+border-radius: 7%;
+color: white;
+align-items: flex-end;
+}
+
+#bank-name {
+text-align: center;
+padding: 5px;
+font-size: 2em;
+}
+
+#card-number {
+font-size: 2em;
+}
+
+#valid-date {
+text-align: center;
+}
+
+#cardholder-name {
+font-size: 1.5em;
+padding-left: 10px;
+align-self: flex-end;
+}
